@@ -1,0 +1,77 @@
+#brand-logo {
+	color: rgb(243, 130, 1);
+	font-size: 30px;
+}
+#mainNav {
+	background-color: grey;
+}
+.hero-image {
+	background: url('../images/hero-image.jpg');
+	height: 80vh;
+	text-align: center;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.hero-text {
+	height: 80vh;
+	background: rgba(0, 0, 0, 0.3);
+}
+.hero-image h1 {
+	font-size: 2em;
+	padding-top: 20vh;
+	margin: 0;
+	color: white;
+}
+.hero-text button {
+	margin-top: 4vh;
+	display: inline-block;
+	padding: 10px 25px;
+	color: black;
+	background-color: rgb(243, 130, 1);
+	text-align: center;
+	cursor: pointer;
+}
+.paper-section {
+	display: flex;
+	flex-direction: column;
+	margin-top: 15vh;
+	margin-bottom: 15vh;
+}
+.hover-shadow:hover img {
+	box-shadow: 10px 10px 5px grey;
+}
+.hover-effect:hover .overlay {
+	opacity: 1;
+}
+.overlay {
+	position: absolute;
+	bottom: 0;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.5);
+	width: 94%;
+	opacity: 0;
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+}
+h3 {
+	text-align: center;
+	color: rgb(243, 130, 1) !important;
+	padding: 2vh;
+}
+footer {
+	margin-top: 10vh;
+}
+.footer-section {
+	background-color: grey !important;
+	border-top: 2px solid black;
+	color: #fff !important;
+}
+.fa {
+	font-size: 3vh !important;
+	padding: 1vh;
+	color: #fff;
+}
